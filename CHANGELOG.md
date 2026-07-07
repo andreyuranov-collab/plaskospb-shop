@@ -1,5 +1,13 @@
 # Changelog
 
+## v00.08 test 260707
+
+- Removed the hero/promotional first block after the header.
+- Homepage now starts directly with the catalog section.
+- Removed unused `assets/hero-spool.svg` from the package.
+- Adjusted background and first-section spacing for a cleaner minimal catalog-first layout.
+- Preserved previous removals: no “Преимущества” in header and no homepage benefits section.
+
 ## v00.07_test_260707
 - Содержательно сохранены правки v00.06: «Преимущества» в хедере отсутствуют, блок преимуществ на главной полностью удалён.
 - Исправлена упаковка архива: возвращена верхняя папка `plaskospb_shop_v00_07_test_260707`.
