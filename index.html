@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PLASKO SPB — интернет-магазин филамента для 3D‑печати</title>
-  <meta name="description" content="Интернет-магазин PLASKO SPB: филамент PLA, PLA HS, PETG, ABS, TPU, PA, SBS для FDM/FFF 3D‑печати. Каталог, корзина, быстрый заказ и доставка по Санкт‑Петербургу и России." />
+  <title>PLASKO SPB — каталог PLA Standart (частичная загрузка)</title>
+  <meta name="description" content="PLASKO SPB: частично оформленный каталог по исходным материалам PLASKO. В этой версии загружены логотип и фото PLA Standart." />
   <meta name="theme-color" content="#111827" />
-  <meta property="og:title" content="PLASKO SPB — материалы для 3D‑печати" />
-  <meta property="og:description" content="Филаменты для FDM/FFF печати: PLA, PETG, ABS, TPU, PA, SBS. Быстрый заказ и доставка." />
+  <meta property="og:title" content="PLASKO SPB — частичная загрузка каталога" />
+  <meta property="og:description" content="Тестовая версия: оригинальный логотип PLASKO и фотографии PLA Standart из исходного архива." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://plaskospb.ru/" />
   <link rel="canonical" href="https://plaskospb.ru/" />
@@ -16,13 +16,14 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- PLASKO SPB shop v00.08 test 260707: minimalist homepage starts directly with catalog after header; hero/promotional first block removed -->
+  <!-- PLASKO SPB shop v00.10 test 260707: partial source-based layout with original PLASKO logo asset and PLA Standart product photos -->
   <div id="page-top" class="page-anchor" aria-hidden="true"></div>
   <div class="page-glow" aria-hidden="true"></div>
 
   <header class="site-header">
     <a class="brand" href="#page-top" data-home-link aria-label="PLASKO SPB — на главную">
-      <img src="assets/logo.svg" alt="PLASKO SPB" width="203" height="50" />
+      <img src="assets/logo-original.png" alt="PLASKO" width="203" height="42" />
+      <span class="brand-suffix">SPB</span>
     </a>
     <nav class="main-nav" aria-label="Основная навигация">
       <a href="#catalog">Каталог</a>
@@ -44,16 +45,18 @@
 
   <main>
     <section class="section-pad catalog-section first-section" id="catalog">
-      <div class="section-head">
-        <p class="eyebrow">Каталог</p>
-        <h2>Филамент для 3D‑принтеров</h2>
-        <p>Короткая витрина без лишних промо-блоков: фильтр по материалу, назначению и цене, затем заявка из корзины.</p>
+      <div class="section-head section-head-single">
+        <div>
+          <p class="eyebrow">Каталог</p>
+          <h2>PLA Standart — частичная загрузка по исходным материалам</h2>
+          <p>В этой версии подключены оригинальный логотип PLASKO и фотографии PLA Standart из присланного архива. Ассортимент пока оформлен частично: показываем подтверждённые фото, а точные названия/цены/прочие позиции переносим только после полной выгрузки исходного каталога.</p>
+        </div>
       </div>
 
-      <div class="catalog-toolbar">
+      <div class="catalog-toolbar partial-toolbar">
         <label class="search-box">
           <span>Поиск</span>
-          <input type="search" placeholder="PLA, PETG, прочный, гибкий…" data-search />
+          <input type="search" placeholder="Белый, PLA Standart, WT, Red…" data-search />
         </label>
         <label>
           <span>Материал</span>
@@ -62,31 +65,22 @@
           </select>
         </label>
         <label>
-          <span>Назначение</span>
-          <select data-use-filter>
-            <option value="all">Любое</option>
-            <option value="easy">Простая печать</option>
-            <option value="functional">Функциональные детали</option>
-            <option value="flexible">Гибкие детали</option>
-            <option value="engineering">Инженерные задачи</option>
-            <option value="visual">Визуальные модели</option>
-          </select>
-        </label>
-        <label>
           <span>Сортировка</span>
           <select data-sort>
             <option value="default">По умолчанию</option>
-            <option value="priceAsc">Сначала дешевле</option>
-            <option value="priceDesc">Сначала дороже</option>
             <option value="nameAsc">По названию</option>
           </select>
         </label>
       </div>
 
+      <div class="source-note">
+        <strong>Важно:</strong> эта версия оформлена частично. Фото взяты из присланного исходного архива, а цены и полная товарная матрица будут добавляться только 1:1 с оригинального сайта PLASKO.
+      </div>
+
       <div class="product-grid" data-product-grid aria-live="polite"></div>
       <div class="empty-state" data-empty-state hidden>
         <h3>Ничего не найдено</h3>
-        <p>Попробуйте сбросить фильтры или отправьте запрос менеджеру — подберём материал вручную.</p>
+        <p>Попробуйте поиск по цвету или коду цвета PLASKO.</p>
         <button class="btn secondary" type="button" data-reset-filters>Сбросить фильтры</button>
       </div>
     </section>
@@ -94,15 +88,15 @@
     <section class="section-pad split" id="delivery">
       <div>
         <p class="eyebrow">Доставка и оплата</p>
-        <h2>Самовывоз, доставка по СПб и отправка по России</h2>
-        <p>В тестовой версии оставлены редактируемые условия. Перед публикацией замените сроки, способы оплаты и адрес самовывоза на фактические.</p>
+        <h2>Блок пока остаётся тестовым</h2>
+        <p>Здесь пока оставлен общий шаблонный текст. После переноса полной матрицы можно будет синхронизировать условия доставки, оплаты и самовывоза с фактическими условиями представительства.</p>
       </div>
       <div class="delivery-card">
         <ul class="check-list">
-          <li>Самовывоз со склада / пункта выдачи в Санкт‑Петербурге.</li>
-          <li>Курьерская доставка по городу после подтверждения менеджером.</li>
-          <li>Отправка транспортной компанией или СДЭК по России.</li>
-          <li>Для юридических лиц — счёт и закрывающие документы.</li>
+          <li>Самовывоз по Санкт‑Петербургу — уточняется.</li>
+          <li>Доставка по городу — уточняется.</li>
+          <li>Отправка по России — уточняется.</li>
+          <li>Условия для юрлиц и документы — уточняются.</li>
         </ul>
       </div>
     </section>
@@ -111,8 +105,8 @@
       <div class="wholesale-card">
         <div>
           <p class="eyebrow">Оптовые условия</p>
-          <h2>Нужна партия под производство, студию печати или дилера?</h2>
-          <p>Оставьте запрос на материал, цвет, вес партии и город доставки. Менеджер подготовит коммерческое предложение.</p>
+          <h2>Можно сразу собирать запрос по подтверждённым позициям</h2>
+          <p>Если нужно, можно уже тестировать форму заявки: выбранная карточка подставится в текст запроса менеджеру.</p>
         </div>
         <form class="lead-form" data-lead-form>
           <label>Имя / компания<input name="name" required placeholder="ООО / ИП / имя" /></label>
@@ -127,8 +121,11 @@
 
   <footer class="site-footer" id="contacts">
     <div>
-      <img src="assets/logo.svg" alt="PLASKO SPB" width="190" height="47" />
-      <p>Интернет-магазин материалов для FDM/FFF 3D‑печати. Тестовая версия для домена plaskospb.ru.</p>
+      <div class="brand footer-brand">
+        <img src="assets/logo-original.png" alt="PLASKO" width="190" height="39" />
+        <span class="brand-suffix">SPB</span>
+      </div>
+      <p>Тестовая частичная версия сайта торгового представительства. В текущем пакете подключены исходный логотип PLASKO и фотографии PLA Standart.</p>
     </div>
     <div>
       <h3>Контакты</h3>
@@ -156,7 +153,7 @@
       <div class="cart-items" data-cart-items></div>
       <div class="cart-summary">
         <div><span>Итого</span><strong data-cart-total>0 ₽</strong></div>
-        <small>Финальная стоимость, наличие и доставка подтверждаются менеджером.</small>
+        <small>В этой частичной версии в корзину можно добавлять только позиции с числовой ценой.</small>
       </div>
       <form class="checkout-form" data-checkout-form>
         <label>Имя<input name="customer" required placeholder="Ваше имя" /></label>
@@ -174,6 +171,7 @@
   <template id="product-card-template">
     <article class="product-card">
       <div class="product-art">
+        <img class="product-photo" src="" alt="" loading="lazy" />
         <div class="filament-swatch"></div>
         <div class="spool-mini"><span></span></div>
       </div>

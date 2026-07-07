@@ -1,5 +1,18 @@
 {
-  "note": "Справочная копия товарной матрицы. Рабочий каталог в этой версии находится в script.js в массиве products.",
-  "materials": ["PLA", "PLA HS", "PETG", "ABS", "TPU", "PA", "SBS", "HIPS", "ASA"],
-  "price_status": "Тестовые цены-заглушки. Перед публичной публикацией заменить на актуальные цены, артикулы и остатки."
+  "note": "Частичная загрузка по исходному архиву пользователя: оригинальный логотип PLASKO и фотографии PLA Standart. Полный каталог, названия и цены должны переноситься 1:1 с plasko.ru после полной выгрузки.",
+  "included_assets": [
+    "logo.png",
+    "PLA_ST_BGR.jpg",
+    "PLA_ST_BL.jpg",
+    "PLA_ST_BLu.jpg",
+    "PLA_ST_OR.jpg",
+    "PLA_ST_RD.jpg",
+    "PLA_ST_WT.jpg",
+    "PLA_ST_YEL.jpg",
+    "PLA_ST_gr.jpg",
+    "PLA_ST_grey.jpg",
+    "PLA_ST_nat.jpg"
+  ],
+  "catalog_status": "partial_source_based_preview",
+  "price_status": "Цены намеренно не выдумываются и не подставляются до подтверждённой выгрузки с оригинального сайта."
 }
