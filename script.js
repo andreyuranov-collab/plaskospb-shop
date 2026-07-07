@@ -199,6 +199,7 @@ function bindEvents() {
     renderProducts();
   });
   qs('[data-reset-filters]').addEventListener('click', resetFilters);
+  qs('[data-home-link]').addEventListener('click', goHome);
   qs('[data-menu-toggle]').addEventListener('click', toggleMenu);
   qsa('.main-nav a').forEach((link) => link.addEventListener('click', closeMenu));
   qs('[data-cart-open]').addEventListener('click', openCart);
@@ -224,6 +225,16 @@ function toggleMenu() {
 function closeMenu() {
   qs('.main-nav').classList.remove('open');
   qs('[data-menu-toggle]').setAttribute('aria-expanded', 'false');
+}
+
+function goHome(event) {
+  event.preventDefault();
+  closeMenu();
+  closeCart();
+  if (window.location.hash) {
+    history.pushState('', document.title, window.location.pathname + window.location.search);
+  }
+  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
 }
 
 function filteredProducts() {
