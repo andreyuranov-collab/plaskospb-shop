@@ -1,0 +1,33 @@
+<svg width="520" height="520" viewBox="0 0 520 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="260" cy="260" r="220" fill="url(#outer)"/>
+  <circle cx="260" cy="260" r="192" fill="#0B1020"/>
+  <circle cx="260" cy="260" r="165" fill="url(#filament)"/>
+  <circle cx="260" cy="260" r="82" fill="#111827"/>
+  <circle cx="260" cy="260" r="45" fill="#030712"/>
+  <g opacity=".6">
+    <path d="M260 95V425" stroke="#111827" stroke-width="18" stroke-linecap="round"/>
+    <path d="M95 260H425" stroke="#111827" stroke-width="18" stroke-linecap="round"/>
+    <path d="M143 143L377 377" stroke="#111827" stroke-width="18" stroke-linecap="round"/>
+    <path d="M377 143L143 377" stroke="#111827" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <circle cx="260" cy="260" r="221" stroke="rgba(255,255,255,.55)" stroke-width="8"/>
+  <circle cx="260" cy="260" r="192" stroke="rgba(255,255,255,.18)" stroke-width="6"/>
+  <circle cx="260" cy="260" r="84" stroke="rgba(255,255,255,.25)" stroke-width="8"/>
+  <path d="M135 391C171 424 215 441 262 440C343 438 413 386 438 314" stroke="url(#shine)" stroke-width="20" stroke-linecap="round" opacity=".65"/>
+  <path d="M96 210C116 141 177 89 252 81C316 75 379 104 415 155" stroke="white" stroke-width="12" stroke-linecap="round" opacity=".18"/>
+  <defs>
+    <radialGradient id="outer" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(190 134) rotate(51) scale(421)">
+      <stop stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="filament" x1="112" y1="132" x2="401" y2="412" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#40D9FF"/>
+      <stop offset=".33" stop-color="#22C55E"/>
+      <stop offset=".67" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="135" y1="440" x2="438" y2="314" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#40D9FF"/><stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+</svg>

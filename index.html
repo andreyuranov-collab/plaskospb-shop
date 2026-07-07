@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PLASKO SPB — интернет-магазин филамента для 3D‑печати</title>
+  <meta name="description" content="Интернет-магазин PLASKO SPB: филамент PLA, PLA HS, PETG, ABS, TPU, PA, SBS для FDM/FFF 3D‑печати. Каталог, корзина, быстрый заказ и доставка по Санкт‑Петербургу и России." />
+  <meta name="theme-color" content="#111827" />
+  <meta property="og:title" content="PLASKO SPB — материалы для 3D‑печати" />
+  <meta property="og:description" content="Филаменты для FDM/FFF печати: PLA, PETG, ABS, TPU, PA, SBS. Быстрый заказ и доставка." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://plaskospb.ru/" />
+  <link rel="canonical" href="https://plaskospb.ru/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="PLASKO SPB — на главную">
+      <img src="assets/logo.svg" alt="PLASKO SPB" width="174" height="42" />
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <a href="#catalog">Каталог</a>
+      <a href="#benefits">Преимущества</a>
+      <a href="#delivery">Доставка</a>
+      <a href="#wholesale">Опт</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header-actions">
+      <a class="ghost-link" href="tel:+78000000000" data-phone-link>+7 (800) 000‑00‑00</a>
+      <button class="cart-button" type="button" data-cart-open aria-label="Открыть корзину">
+        <span>Корзина</span>
+        <b data-cart-count>0</b>
+      </button>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow">Интернет-магазин филамента • Санкт‑Петербург</p>
+        <h1>Материалы для стабильной 3D‑печати — от прототипа до малой серии</h1>
+        <p class="hero-text">Каталог PLASKO SPB собран для быстрого подбора филамента по материалу, назначению и режимам печати. Выберите позиции, добавьте в корзину и отправьте заявку менеджеру.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#catalog">Смотреть каталог</a>
+          <a class="btn secondary" href="#wholesale">Оптовый запрос</a>
+        </div>
+        <div class="hero-stats" aria-label="Ключевые показатели">
+          <div><strong>30+</strong><span>цветов в линейке</span></div>
+          <div><strong>±0.03</strong><span>мм контроль диаметра</span></div>
+          <div><strong>FDM/FFF</strong><span>для мастерских и производства</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="spool-card">
+          <img src="assets/hero-spool.svg" alt="" width="520" height="520" />
+          <div class="spool-badge top">PLA • PETG • ABS</div>
+          <div class="spool-badge bottom">Быстрый заказ</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip" aria-label="Популярные материалы">
+      <span>PLA</span><span>PLA HS</span><span>PETG</span><span>ABS</span><span>TPU</span><span>PA</span><span>SBS</span><span>HIPS</span>
+    </section>
+
+    <section class="section-pad catalog-section" id="catalog">
+      <div class="section-head">
+        <p class="eyebrow">Каталог</p>
+        <h2>Филамент для 3D‑принтеров</h2>
+        <p>Фильтруйте по материалам, применению и наличию. Текущие цены в этой тестовой версии вынесены в карточки как редактируемые данные.</p>
+      </div>
+
+      <div class="catalog-toolbar">
+        <label class="search-box">
+          <span>Поиск</span>
+          <input type="search" placeholder="PLA, PETG, прочный, гибкий…" data-search />
+        </label>
+        <label>
+          <span>Материал</span>
+          <select data-material-filter>
+            <option value="all">Все материалы</option>
+          </select>
+        </label>
+        <label>
+          <span>Назначение</span>
+          <select data-use-filter>
+            <option value="all">Любое</option>
+            <option value="easy">Простая печать</option>
+            <option value="functional">Функциональные детали</option>
+            <option value="flexible">Гибкие детали</option>
+            <option value="engineering">Инженерные задачи</option>
+            <option value="visual">Визуальные модели</option>
+          </select>
+        </label>
+        <label>
+          <span>Сортировка</span>
+          <select data-sort>
+            <option value="default">По умолчанию</option>
+            <option value="priceAsc">Сначала дешевле</option>
+            <option value="priceDesc">Сначала дороже</option>
+            <option value="nameAsc">По названию</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="product-grid" data-product-grid aria-live="polite"></div>
+      <div class="empty-state" data-empty-state hidden>
+        <h3>Ничего не найдено</h3>
+        <p>Попробуйте сбросить фильтры или отправьте запрос менеджеру — подберём материал вручную.</p>
+        <button class="btn secondary" type="button" data-reset-filters>Сбросить фильтры</button>
+      </div>
+    </section>
+
+    <section class="section-pad benefits" id="benefits">
+      <div class="section-head compact">
+        <p class="eyebrow">Почему PLASKO SPB</p>
+        <h2>Сайт сделан как быстрый магазин, а не длинный прайс-лист</h2>
+      </div>
+      <div class="benefit-grid">
+        <article>
+          <span class="icon-dot"></span>
+          <h3>Подбор по задаче</h3>
+          <p>Карточки содержат не только материал, но и сценарии применения: простая печать, функциональные детали, гибкие изделия, инженерные задачи.</p>
+        </article>
+        <article>
+          <span class="icon-dot"></span>
+          <h3>Корзина-заявка</h3>
+          <p>Покупатель собирает позиции, оставляет контакты и отправляет заказ менеджеру. Это удобно для тестового старта без полноценного платёжного шлюза.</p>
+        </article>
+        <article>
+          <span class="icon-dot"></span>
+          <h3>Готово к GitHub</h3>
+          <p>Статика без сборки: HTML, CSS, JS и JSON. Подходит для GitHub + Cloudflare Pages, как тестовая ветка сайта.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-pad split" id="delivery">
+      <div>
+        <p class="eyebrow">Доставка и оплата</p>
+        <h2>Самовывоз, доставка по СПб и отправка по России</h2>
+        <p>В тестовой версии оставлены редактируемые условия. Перед публикацией замените сроки, способы оплаты и адрес самовывоза на фактические.</p>
+      </div>
+      <div class="delivery-card">
+        <ul class="check-list">
+          <li>Самовывоз со склада / пункта выдачи в Санкт‑Петербурге.</li>
+          <li>Курьерская доставка по городу после подтверждения менеджером.</li>
+          <li>Отправка транспортной компанией или СДЭК по России.</li>
+          <li>Для юридических лиц — счёт и закрывающие документы.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-pad wholesale" id="wholesale">
+      <div class="wholesale-card">
+        <div>
+          <p class="eyebrow">Оптовые условия</p>
+          <h2>Нужна партия под производство, студию печати или дилера?</h2>
+          <p>Оставьте запрос на материал, цвет, вес партии и город доставки. Менеджер подготовит коммерческое предложение.</p>
+        </div>
+        <form class="lead-form" data-lead-form>
+          <label>Имя / компания<input name="name" required placeholder="ООО / ИП / имя" /></label>
+          <label>Телефон или email<input name="contact" required placeholder="Как связаться" /></label>
+          <label>Что нужно<textarea name="message" rows="4" placeholder="Материал, цвет, объём, сроки"></textarea></label>
+          <button class="btn primary" type="submit">Сформировать запрос</button>
+          <p class="form-note" data-lead-status>Запрос откроется в почтовом клиенте и продублируется в буфер обмена.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacts">
+    <div>
+      <img src="assets/logo.svg" alt="PLASKO SPB" width="160" height="39" />
+      <p>Интернет-магазин материалов для FDM/FFF 3D‑печати. Тестовая версия для домена plaskospb.ru.</p>
+    </div>
+    <div>
+      <h3>Контакты</h3>
+      <a href="tel:+78000000000" data-phone-link>+7 (800) 000‑00‑00</a>
+      <a href="mailto:info@plaskospb.ru" data-email-link>info@plaskospb.ru</a>
+      <span>Санкт‑Петербург</span>
+    </div>
+    <div>
+      <h3>Разделы</h3>
+      <a href="#catalog">Каталог</a>
+      <a href="#delivery">Доставка</a>
+      <a href="#wholesale">Опт</a>
+    </div>
+  </footer>
+
+  <aside class="cart-drawer" data-cart-drawer aria-hidden="true">
+    <div class="cart-panel" role="dialog" aria-modal="true" aria-label="Корзина заказа">
+      <div class="cart-head">
+        <div>
+          <p class="eyebrow">Ваш заказ</p>
+          <h2>Корзина</h2>
+        </div>
+        <button class="icon-button" type="button" data-cart-close aria-label="Закрыть корзину">×</button>
+      </div>
+      <div class="cart-items" data-cart-items></div>
+      <div class="cart-summary">
+        <div><span>Итого</span><strong data-cart-total>0 ₽</strong></div>
+        <small>Финальная стоимость, наличие и доставка подтверждаются менеджером.</small>
+      </div>
+      <form class="checkout-form" data-checkout-form>
+        <label>Имя<input name="customer" required placeholder="Ваше имя" /></label>
+        <label>Телефон<input name="phone" required placeholder="+7 …" /></label>
+        <label>Email<input name="email" type="email" placeholder="email для счёта" /></label>
+        <label>Доставка<select name="delivery"><option>Самовывоз</option><option>Курьер по СПб</option><option>Транспортная компания</option><option>СДЭК</option></select></label>
+        <label>Комментарий<textarea name="comment" rows="3" placeholder="Цвет, сроки, реквизиты, пожелания"></textarea></label>
+        <button class="btn primary" type="submit">Отправить заявку</button>
+        <button class="btn secondary" type="button" data-copy-order>Скопировать заказ</button>
+        <p class="form-note" data-checkout-status></p>
+      </form>
+    </div>
+  </aside>
+
+  <template id="product-card-template">
+    <article class="product-card">
+      <div class="product-art">
+        <div class="filament-swatch"></div>
+        <div class="spool-mini"><span></span></div>
+      </div>
+      <div class="product-body">
+        <div class="product-meta"><span class="pill"></span><span class="stock"></span></div>
+        <h3></h3>
+        <p class="product-desc"></p>
+        <dl class="specs"></dl>
+        <div class="product-bottom">
+          <strong class="price"></strong>
+          <button class="btn small" type="button">В корзину</button>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
