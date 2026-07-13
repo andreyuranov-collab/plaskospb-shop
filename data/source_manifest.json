@@ -1,0 +1,38 @@
+[
+  {
+    "family": "PLA",
+    "archive": "260709.zip",
+    "cards_in_html": 11,
+    "cards_imported": 11
+  },
+  {
+    "family": "PLA HS",
+    "archive": "pla_HS.zip",
+    "cards_in_html": 1,
+    "cards_imported": 1
+  },
+  {
+    "family": "ABS",
+    "archive": "ABS.ZIP",
+    "cards_in_html": 9,
+    "cards_imported": 9
+  },
+  {
+    "family": "PETG",
+    "archive": "petg.zip",
+    "cards_in_html": 31,
+    "cards_imported": 31
+  },
+  {
+    "family": "TPU",
+    "archive": "TPU.ZIP",
+    "cards_in_html": 2,
+    "cards_imported": 1
+  },
+  {
+    "family": "PA",
+    "archive": "PA.ZIP",
+    "cards_in_html": 1,
+    "cards_imported": 1
+  }
+]

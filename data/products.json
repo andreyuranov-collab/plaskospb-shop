@@ -1,214 +1,1111 @@
 {
-  "source": "260709.zip — сохранённая страница оригинального сайта PLASKO",
-  "status": "PLA Standard transferred 1:1 from saved original page",
+  "version": "v00.14",
+  "date": "260713",
+  "source_archives": [
+    "/mnt/data/260709.zip",
+    "/mnt/data/pla_HS.zip",
+    "/mnt/data/ABS.ZIP",
+    "/mnt/data/petg.zip",
+    "/mnt/data/TPU.ZIP",
+    "/mnt/data/PA.ZIP"
+  ],
+  "families": [
+    "PLA",
+    "PLA HS",
+    "ABS",
+    "PETG",
+    "TPU",
+    "PA"
+  ],
+  "product_cards": 54,
+  "sku_variants": 55,
   "products": [
     {
-      "id": "pla-standard-black",
-      "name": "PLASKO PLA Standard 1.75 мм",
+      "id": "pla-001",
+      "family": "PLA",
       "material": "PLA",
-      "colorName": "Чёрный",
-      "image": "PLA_ST_BL.jpg",
-      "price": 1000,
-      "wholesale": 850,
-      "swatch": "#111111",
+      "name": "PLASKO PLA Standard 1.75 мм",
       "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
       "diameter": "1.75 мм",
       "weight": "1 кг",
       "tolerance": "±0.03 мм",
-      "stock": "В наличии"
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Чёрный",
+          "swatch": "#1a1a1a",
+          "image": "assets/products/pla_product-1-1780629553218.jpg",
+          "price": 1000,
+          "wholesale": 850
+        }
+      ]
     },
     {
-      "id": "pla-standard-orange",
-      "name": "PLASKO PLA Standard 1.75 мм",
+      "id": "pla-002",
+      "family": "PLA",
       "material": "PLA",
-      "colorName": "Оранжевый",
-      "image": "PLA_ST_OR.jpg",
-      "price": 1020,
-      "wholesale": 870,
-      "swatch": "#f97316",
+      "name": "PLASKO PLA Standard 1.75 мм",
       "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
       "diameter": "1.75 мм",
       "weight": "1 кг",
       "tolerance": "±0.03 мм",
-      "stock": "В наличии"
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Оранжевый",
+          "swatch": "#f59e0b",
+          "image": "assets/products/pla_product-2-1780629545214.jpg",
+          "price": 1020,
+          "wholesale": 870
+        }
+      ]
     },
     {
-      "id": "pla-standard-blue",
-      "name": "PLASKO PLA Standard 1.75 мм",
+      "id": "pla-003",
+      "family": "PLA",
       "material": "PLA",
-      "colorName": "Синий",
-      "image": "PLA_ST_BLu.jpg",
-      "price": 1020,
-      "wholesale": 870,
-      "swatch": "#2563eb",
+      "name": "PLASKO PLA Standard 1.75 мм",
       "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
       "diameter": "1.75 мм",
       "weight": "1 кг",
       "tolerance": "±0.03 мм",
-      "stock": "В наличии"
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Синий",
+          "swatch": "#1d5fd8",
+          "image": "assets/products/pla_product-3-1780629505770.jpg",
+          "price": 1020,
+          "wholesale": 870
+        }
+      ]
     },
     {
-      "id": "pla-standard-green",
-      "name": "PLASKO PLA Standard 1.75 мм",
+      "id": "pla-004",
+      "family": "PLA",
       "material": "PLA",
-      "colorName": "Зелёный",
-      "image": "PLA_ST_gr.jpg",
-      "price": 1020,
-      "wholesale": 870,
-      "swatch": "#16a34a",
+      "name": "PLASKO PLA Standard 1.75 мм",
       "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
       "diameter": "1.75 мм",
       "weight": "1 кг",
       "tolerance": "±0.03 мм",
-      "stock": "В наличии"
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Зелёный",
+          "swatch": "#10b981",
+          "image": "assets/products/pla_product-4-1780629515057.jpg",
+          "price": 1020,
+          "wholesale": 870
+        }
+      ]
     },
     {
-      "id": "pla-standard-grey",
-      "name": "PLASKO PLA Standard 1.75 мм",
+      "id": "pla-005",
+      "family": "PLA",
       "material": "PLA",
-      "colorName": "Серый",
-      "image": "PLA_ST_grey.jpg",
-      "price": 1020,
-      "wholesale": 870,
-      "swatch": "#6b7280",
+      "name": "PLASKO PLA Standard 1.75 мм",
       "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
       "diameter": "1.75 мм",
       "weight": "1 кг",
       "tolerance": "±0.03 мм",
-      "stock": "В наличии"
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Серый",
+          "swatch": "#6b7280",
+          "image": "assets/products/pla_product-5-1780629522559.jpg",
+          "price": 1020,
+          "wholesale": 870
+        }
+      ]
     },
     {
-      "id": "pla-standard-natural",
-      "name": "PLASKO PLA Standard 1.75 мм",
+      "id": "pla-006",
+      "family": "PLA",
       "material": "PLA",
-      "colorName": "Натуральный",
-      "image": "PLA_ST_nat.jpg",
-      "price": 1000,
-      "wholesale": 850,
-      "swatch": "#e7dfd3",
+      "name": "PLASKO PLA Standard 1.75 мм",
       "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
       "diameter": "1.75 мм",
       "weight": "1 кг",
       "tolerance": "±0.03 мм",
-      "stock": "В наличии"
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Натуральный",
+          "swatch": "#ffffff",
+          "image": "assets/products/pla_product-47-1780629810686.jpg",
+          "price": 1000,
+          "wholesale": 850
+        }
+      ]
     },
     {
-      "id": "pla-standard-red",
-      "name": "PLASKO PLA Standard 1.75 мм",
+      "id": "pla-007",
+      "family": "PLA",
       "material": "PLA",
-      "colorName": "Красный",
-      "image": "PLA_ST_RD.jpg",
-      "price": 1020,
-      "wholesale": 870,
-      "swatch": "#dc2626",
+      "name": "PLASKO PLA Standard 1.75 мм",
       "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
       "diameter": "1.75 мм",
       "weight": "1 кг",
       "tolerance": "±0.03 мм",
-      "stock": "В наличии"
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Красный",
+          "swatch": "#ec1313",
+          "image": "assets/products/pla_product-48-1780629819500.jpg",
+          "price": 1020,
+          "wholesale": 870
+        }
+      ]
     },
     {
-      "id": "pla-standard-yellow",
-      "name": "PLASKO PLA Standard 1.75 мм",
+      "id": "pla-008",
+      "family": "PLA",
       "material": "PLA",
-      "colorName": "Жёлтый",
-      "image": "PLA_ST_YEL.jpg",
-      "price": 1020,
-      "wholesale": 870,
-      "swatch": "#eab308",
+      "name": "PLASKO PLA Standard 1.75 мм",
       "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
       "diameter": "1.75 мм",
       "weight": "1 кг",
       "tolerance": "±0.03 мм",
-      "stock": "В наличии"
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Жёлтый",
+          "swatch": "#f3eb12",
+          "image": "assets/products/pla_product-49-1780629832357.jpg",
+          "price": 1020,
+          "wholesale": 870
+        }
+      ]
     },
     {
-      "id": "pla-standard-gold",
-      "name": "PLASKO PLA Standard 1.75 мм",
+      "id": "pla-009",
+      "family": "PLA",
       "material": "PLA",
-      "colorName": "Золотистый",
-      "image": "",
-      "price": 1020,
-      "wholesale": 870,
-      "swatch": "#df9f16",
+      "name": "PLASKO PLA Standard 1.75 мм",
       "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
       "diameter": "1.75 мм",
       "weight": "1 кг",
       "tolerance": "±0.03 мм",
-      "stock": "В наличии"
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Золотистый",
+          "swatch": "#df9f16",
+          "image": "",
+          "price": 1020,
+          "wholesale": 870
+        }
+      ]
     },
     {
-      "id": "pla-standard-darkgreen",
-      "name": "PLASKO PLA Standard 1.75 мм",
+      "id": "pla-010",
+      "family": "PLA",
       "material": "PLA",
-      "colorName": "Тёмно-зеленый",
-      "image": "PLA_ST_BGR.jpg",
-      "price": 1020,
-      "wholesale": 870,
-      "swatch": "#064e3b",
+      "name": "PLASKO PLA Standard 1.75 мм",
       "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
       "diameter": "1.75 мм",
       "weight": "1 кг",
       "tolerance": "±0.03 мм",
-      "stock": "В наличии"
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Тёмно-зеленый",
+          "swatch": "#268731",
+          "image": "assets/products/pla_product-51-1780629844253.jpg",
+          "price": 1020,
+          "wholesale": 870
+        }
+      ]
     },
     {
-      "id": "pla-standard-white",
-      "name": "PLASKO PLA Standard 1.75 мм",
+      "id": "pla-011",
+      "family": "PLA",
       "material": "PLA",
-      "colorName": "Белый",
-      "image": "PLA_ST_WT.jpg",
-      "price": 1000,
-      "wholesale": 850,
-      "swatch": "#ffffff",
+      "name": "PLASKO PLA Standard 1.75 мм",
       "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
       "diameter": "1.75 мм",
       "weight": "1 кг",
       "tolerance": "±0.03 мм",
-      "stock": "В наличии"
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Белый",
+          "swatch": "#ffffff",
+          "image": "assets/products/pla_product-78-1780629656627.jpg",
+          "price": 1000,
+          "wholesale": 850
+        }
+      ]
+    },
+    {
+      "id": "pla-hs-012",
+      "family": "PLA HS",
+      "material": "PLA HS",
+      "name": "PLASKO PLA HS 1.75 мм",
+      "desc": "Высокоскоростная печать до 300 мм/с. Сохраняет прочность и качество при ускоренной подаче.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Чёрный",
+          "swatch": "#1a1a1a",
+          "image": "",
+          "price": 990,
+          "wholesale": 840
+        },
+        {
+          "colorName": "Белый",
+          "swatch": "#f5f5f5",
+          "image": "",
+          "price": 990,
+          "wholesale": 840
+        }
+      ]
+    },
+    {
+      "id": "abs-013",
+      "family": "ABS",
+      "material": "ABS",
+      "name": "PLASKO ABS Industrial 1.75 мм",
+      "desc": "Высокопрочный ABS для функциональных деталей. Устойчив к ударам и высоким температурам.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Чёрный",
+          "swatch": "#1a1a1a",
+          "image": "assets/products/abs_product-15-1780630830975.jpg",
+          "price": 750,
+          "wholesale": 600
+        }
+      ]
+    },
+    {
+      "id": "abs-014",
+      "family": "ABS",
+      "material": "ABS",
+      "name": "PLASKO ABS Industrial 1.75 мм",
+      "desc": "Высокопрочный ABS для функциональных деталей. Устойчив к ударам и высоким температурам.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Белый",
+          "swatch": "#f5f5f5",
+          "image": "assets/products/abs_product-16-1780630842384.jpg",
+          "price": 750,
+          "wholesale": 600
+        }
+      ]
+    },
+    {
+      "id": "abs-015",
+      "family": "ABS",
+      "material": "ABS",
+      "name": "PLASKO ABS Industrial 1,75 мм",
+      "desc": "Высокопрочный ABS для функциональных деталей. Устойчив к ударам и высоким температурам.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Красный ",
+          "swatch": "#df3030",
+          "image": "assets/products/abs_product-40-1780630852858.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "abs-016",
+      "family": "ABS",
+      "material": "ABS",
+      "name": "PLASKO ABS Industrial 1.75 мм",
+      "desc": "Высокопрочный ABS для функциональных деталей. Устойчив к ударам и высоким температурам.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Желтый",
+          "swatch": "#e3f218",
+          "image": "assets/products/abs_product-41-1780630866835.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "abs-017",
+      "family": "ABS",
+      "material": "ABS",
+      "name": "PLASKO ABS Industrial 1.75 мм",
+      "desc": "Высокопрочный ABS для функциональных деталей. Устойчив к ударам и высоким температурам.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Зелёный ",
+          "swatch": "#24d648",
+          "image": "assets/products/abs_product-42-1780630875135.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "abs-018",
+      "family": "ABS",
+      "material": "ABS",
+      "name": "PLASKO ABS Industrial 1.75 мм",
+      "desc": "Высокопрочный ABS для функциональных деталей. Устойчив к ударам и высоким температурам.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Темно-зеленый",
+          "swatch": "#087824",
+          "image": "assets/products/abs_product-43-1780630887176.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "abs-019",
+      "family": "ABS",
+      "material": "ABS",
+      "name": "PLASKO ABS Industrial 1.75 мм",
+      "desc": "Высокопрочный ABS для функциональных деталей. Устойчив к ударам и высоким температурам.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Синий ",
+          "swatch": "#0c52df",
+          "image": "assets/products/abs_product-44-1780630894603.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "abs-020",
+      "family": "ABS",
+      "material": "ABS",
+      "name": "PLASKO ABS Industrial 1.75 мм",
+      "desc": "Высокопрочный ABS для функциональных деталей. Устойчив к ударам и высоким температурам.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Розовый",
+          "swatch": "#ef01a3",
+          "image": "assets/products/abs_product-45-1780630903753.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "abs-021",
+      "family": "ABS",
+      "material": "ABS",
+      "name": "PLASKO ABS Industrial 1.75 мм",
+      "desc": "Высокопрочный ABS для функциональных деталей. Устойчив к ударам и высоким температурам.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Серебристый металлик",
+          "swatch": "#bec4c6",
+          "image": "assets/products/abs_product-46-1780630961766.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-022",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Чёрный",
+          "swatch": "#1a1a1a",
+          "image": "assets/products/petg_product-7-1779946734603.jpg",
+          "price": 750,
+          "wholesale": 600
+        }
+      ]
+    },
+    {
+      "id": "petg-023",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Белый",
+          "swatch": "#f5f5f5",
+          "image": "assets/products/petg_product-8-1779946722632.jpg",
+          "price": 750,
+          "wholesale": 600
+        }
+      ]
+    },
+    {
+      "id": "petg-024",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Красный",
+          "swatch": "#e63946",
+          "image": "assets/products/petg_product-9-1779946698058.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-025",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Хаки тёмный",
+          "swatch": "#6b7a3d",
+          "image": "assets/products/petg_product-10-1779946657008.jpg",
+          "price": 750,
+          "wholesale": 600
+        }
+      ]
+    },
+    {
+      "id": "petg-026",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Тёмно-серый",
+          "swatch": "#4b5563",
+          "image": "assets/products/petg_product-11-1779946707241.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-027",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Синий",
+          "swatch": "#1d5fd8",
+          "image": "assets/products/petg_product-13-1779946667669.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-028",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Карамель",
+          "swatch": "#c47a20",
+          "image": "assets/products/petg_product-14-1780629174233.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-029",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Натуральный",
+          "swatch": "#ffffff",
+          "image": "assets/products/petg_product-52-1779959691146.jpg",
+          "price": 750,
+          "wholesale": 600
+        }
+      ]
+    },
+    {
+      "id": "petg-030",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Алый",
+          "swatch": "#c91818",
+          "image": "assets/products/petg_product-53-1779959703248.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-031",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Шоколадный",
+          "swatch": "#885e16",
+          "image": "assets/products/petg_product-54-1779959712562.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-032",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Латте",
+          "swatch": "#a27449",
+          "image": "assets/products/petg_product-55-1779959722711.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-033",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Крафт",
+          "swatch": "#68582c",
+          "image": "assets/products/petg_product-57-1780628972475.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-034",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Ириска",
+          "swatch": "#1a1a1a",
+          "image": "assets/products/petg_product-58-1779959748200.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-035",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Оранжевый",
+          "swatch": "#f4740b",
+          "image": "",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-036",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Заводной апельсин",
+          "swatch": "#ff600a",
+          "image": "",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-037",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Жёлтый",
+          "swatch": "#e7f702",
+          "image": "assets/products/petg_product-61-1779959828728.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-038",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Золото",
+          "swatch": "#ffd700",
+          "image": "",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-039",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Бежевый",
+          "swatch": "#c3c06f",
+          "image": "assets/products/petg_product-63-1779959987924.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-040",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Зелёный",
+          "swatch": "#16ca19",
+          "image": "assets/products/petg_product-64-1780628952655.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-041",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Зелёное яблоко ",
+          "swatch": "#37ff00",
+          "image": "assets/products/petg_product-65-1779960828527.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-042",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Зелёный лайм ",
+          "swatch": "#12ba3c",
+          "image": "assets/products/petg_product-66-1779960836987.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-043",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Тиффани",
+          "swatch": "#00fffb",
+          "image": "assets/products/petg_product-67-1779960854200.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-044",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Ультрамарин",
+          "swatch": "#353cf8",
+          "image": "assets/products/petg_product-68-1779961306629.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-045",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Голубой",
+          "swatch": "#00ccff",
+          "image": "assets/products/petg_product-69-1780628925620.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-046",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Розовый",
+          "swatch": "#e60588",
+          "image": "assets/products/petg_product-70-1780022673011.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-047",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Маджента",
+          "swatch": "#ce01e9",
+          "image": "assets/products/petg_product-71-1780022618374.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-048",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Фуксия ",
+          "swatch": "#ff00ff",
+          "image": "assets/products/petg_product-72-1780628909478.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-049",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Фиолетовый",
+          "swatch": "#9b30ff",
+          "image": "assets/products/petg_product-73-1780628876108.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-050",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Серый ",
+          "swatch": "#8a8a8a",
+          "image": "assets/products/petg_product-74-1780022607363.jpg",
+          "price": 750,
+          "wholesale": 600
+        }
+      ]
+    },
+    {
+      "id": "petg-051",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Серебро",
+          "swatch": "#b5b0b0",
+          "image": "assets/products/petg_product-75-1780628861120.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "petg-052",
+      "family": "PETG",
+      "material": "PETG",
+      "name": "PLASKO PETG 1.75 мм",
+      "desc": "Сочетает прочность ABS и лёгкость печати PLA. Непрозрачный цвет с высоким глянцем.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Мрамор",
+          "swatch": "#a0a0a0",
+          "image": "assets/products/petg_product-76-1780628850748.jpg",
+          "price": 770,
+          "wholesale": 620
+        }
+      ]
+    },
+    {
+      "id": "tpu-053",
+      "family": "TPU",
+      "material": "TPU",
+      "name": "PLASKO TPU Elastic 95A 1.75 мм",
+      "desc": "Гибкий эластичный пластик. Отлично подходит для прокладок, чехлов и мягких деталей.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Чёрный",
+          "swatch": "#1a1a1a",
+          "image": "",
+          "price": 1590,
+          "wholesale": 1440
+        }
+      ]
+    },
+    {
+      "id": "pa-054",
+      "family": "PA",
+      "material": "PA",
+      "name": "PLASKO PA12 Engineering 1.75 мм",
+      "desc": "Инженерный нейлон с исключительной износостойкостью. Для ответственных механических деталей.",
+      "diameter": "1.75 мм",
+      "weight": "0.5 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии",
+      "variants": [
+        {
+          "colorName": "Натуральный",
+          "swatch": "#8b5cf6",
+          "image": "",
+          "price": 1890,
+          "wholesale": 1740
+        }
+      ]
     }
-  ],
-  "image_mapping": [
-    {
-      "original_site_image": "product-1-1780629553218.jpg",
-      "uploaded_image": "PLA_ST_BL.jpg"
-    },
-    {
-      "original_site_image": "product-2-1780629545214.jpg",
-      "uploaded_image": "PLA_ST_OR.jpg"
-    },
-    {
-      "original_site_image": "product-3-1780629505770.jpg",
-      "uploaded_image": "PLA_ST_BLu.jpg"
-    },
-    {
-      "original_site_image": "product-4-1780629515057.jpg",
-      "uploaded_image": "PLA_ST_gr.jpg"
-    },
-    {
-      "original_site_image": "product-47-1780629810686.jpg",
-      "uploaded_image": "PLA_ST_nat.jpg"
-    },
-    {
-      "original_site_image": "product-48-1780629819500.jpg",
-      "uploaded_image": "PLA_ST_RD.jpg"
-    },
-    {
-      "original_site_image": "product-49-1780629832357.jpg",
-      "uploaded_image": "PLA_ST_YEL.jpg"
-    },
-    {
-      "original_site_image": "product-5-1780629522559.jpg",
-      "uploaded_image": "PLA_ST_grey.jpg"
-    },
-    {
-      "original_site_image": "product-51-1780629844253.jpg",
-      "uploaded_image": "PLA_ST_BGR.jpg"
-    },
-    {
-      "original_site_image": "product-78-1780629656627.jpg",
-      "uploaded_image": "PLA_ST_WT.jpg"
-    }
-  ],
-  "note": "Для позиции «Золотистый» в сохранённой странице оригинального сайта нет отдельного img-файла; использована цветовая карточка как на исходной странице."
+  ]
 }
