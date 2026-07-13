@@ -1,18 +1,214 @@
 {
-  "note": "Частичная загрузка по исходному архиву пользователя: оригинальный логотип PLASKO и фотографии PLA Standart. Полный каталог, названия и цены должны переноситься 1:1 с plasko.ru после полной выгрузки.",
-  "included_assets": [
-    "logo.png",
-    "PLA_ST_BGR.jpg",
-    "PLA_ST_BL.jpg",
-    "PLA_ST_BLu.jpg",
-    "PLA_ST_OR.jpg",
-    "PLA_ST_RD.jpg",
-    "PLA_ST_WT.jpg",
-    "PLA_ST_YEL.jpg",
-    "PLA_ST_gr.jpg",
-    "PLA_ST_grey.jpg",
-    "PLA_ST_nat.jpg"
+  "source": "260709.zip — сохранённая страница оригинального сайта PLASKO",
+  "status": "PLA Standard transferred 1:1 from saved original page",
+  "products": [
+    {
+      "id": "pla-standard-black",
+      "name": "PLASKO PLA Standard 1.75 мм",
+      "material": "PLA",
+      "colorName": "Чёрный",
+      "image": "PLA_ST_BL.jpg",
+      "price": 1000,
+      "wholesale": 850,
+      "swatch": "#111111",
+      "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии"
+    },
+    {
+      "id": "pla-standard-orange",
+      "name": "PLASKO PLA Standard 1.75 мм",
+      "material": "PLA",
+      "colorName": "Оранжевый",
+      "image": "PLA_ST_OR.jpg",
+      "price": 1020,
+      "wholesale": 870,
+      "swatch": "#f97316",
+      "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии"
+    },
+    {
+      "id": "pla-standard-blue",
+      "name": "PLASKO PLA Standard 1.75 мм",
+      "material": "PLA",
+      "colorName": "Синий",
+      "image": "PLA_ST_BLu.jpg",
+      "price": 1020,
+      "wholesale": 870,
+      "swatch": "#2563eb",
+      "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии"
+    },
+    {
+      "id": "pla-standard-green",
+      "name": "PLASKO PLA Standard 1.75 мм",
+      "material": "PLA",
+      "colorName": "Зелёный",
+      "image": "PLA_ST_gr.jpg",
+      "price": 1020,
+      "wholesale": 870,
+      "swatch": "#16a34a",
+      "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии"
+    },
+    {
+      "id": "pla-standard-grey",
+      "name": "PLASKO PLA Standard 1.75 мм",
+      "material": "PLA",
+      "colorName": "Серый",
+      "image": "PLA_ST_grey.jpg",
+      "price": 1020,
+      "wholesale": 870,
+      "swatch": "#6b7280",
+      "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии"
+    },
+    {
+      "id": "pla-standard-natural",
+      "name": "PLASKO PLA Standard 1.75 мм",
+      "material": "PLA",
+      "colorName": "Натуральный",
+      "image": "PLA_ST_nat.jpg",
+      "price": 1000,
+      "wholesale": 850,
+      "swatch": "#e7dfd3",
+      "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии"
+    },
+    {
+      "id": "pla-standard-red",
+      "name": "PLASKO PLA Standard 1.75 мм",
+      "material": "PLA",
+      "colorName": "Красный",
+      "image": "PLA_ST_RD.jpg",
+      "price": 1020,
+      "wholesale": 870,
+      "swatch": "#dc2626",
+      "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии"
+    },
+    {
+      "id": "pla-standard-yellow",
+      "name": "PLASKO PLA Standard 1.75 мм",
+      "material": "PLA",
+      "colorName": "Жёлтый",
+      "image": "PLA_ST_YEL.jpg",
+      "price": 1020,
+      "wholesale": 870,
+      "swatch": "#eab308",
+      "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии"
+    },
+    {
+      "id": "pla-standard-gold",
+      "name": "PLASKO PLA Standard 1.75 мм",
+      "material": "PLA",
+      "colorName": "Золотистый",
+      "image": "",
+      "price": 1020,
+      "wholesale": 870,
+      "swatch": "#df9f16",
+      "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии"
+    },
+    {
+      "id": "pla-standard-darkgreen",
+      "name": "PLASKO PLA Standard 1.75 мм",
+      "material": "PLA",
+      "colorName": "Тёмно-зеленый",
+      "image": "PLA_ST_BGR.jpg",
+      "price": 1020,
+      "wholesale": 870,
+      "swatch": "#064e3b",
+      "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии"
+    },
+    {
+      "id": "pla-standard-white",
+      "name": "PLASKO PLA Standard 1.75 мм",
+      "material": "PLA",
+      "colorName": "Белый",
+      "image": "PLA_ST_WT.jpg",
+      "price": 1000,
+      "wholesale": 850,
+      "swatch": "#ffffff",
+      "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.",
+      "diameter": "1.75 мм",
+      "weight": "1 кг",
+      "tolerance": "±0.03 мм",
+      "stock": "В наличии"
+    }
   ],
-  "catalog_status": "partial_source_based_preview",
-  "price_status": "Цены намеренно не выдумываются и не подставляются до подтверждённой выгрузки с оригинального сайта."
+  "image_mapping": [
+    {
+      "original_site_image": "product-1-1780629553218.jpg",
+      "uploaded_image": "PLA_ST_BL.jpg"
+    },
+    {
+      "original_site_image": "product-2-1780629545214.jpg",
+      "uploaded_image": "PLA_ST_OR.jpg"
+    },
+    {
+      "original_site_image": "product-3-1780629505770.jpg",
+      "uploaded_image": "PLA_ST_BLu.jpg"
+    },
+    {
+      "original_site_image": "product-4-1780629515057.jpg",
+      "uploaded_image": "PLA_ST_gr.jpg"
+    },
+    {
+      "original_site_image": "product-47-1780629810686.jpg",
+      "uploaded_image": "PLA_ST_nat.jpg"
+    },
+    {
+      "original_site_image": "product-48-1780629819500.jpg",
+      "uploaded_image": "PLA_ST_RD.jpg"
+    },
+    {
+      "original_site_image": "product-49-1780629832357.jpg",
+      "uploaded_image": "PLA_ST_YEL.jpg"
+    },
+    {
+      "original_site_image": "product-5-1780629522559.jpg",
+      "uploaded_image": "PLA_ST_grey.jpg"
+    },
+    {
+      "original_site_image": "product-51-1780629844253.jpg",
+      "uploaded_image": "PLA_ST_BGR.jpg"
+    },
+    {
+      "original_site_image": "product-78-1780629656627.jpg",
+      "uploaded_image": "PLA_ST_WT.jpg"
+    }
+  ],
+  "note": "Для позиции «Золотистый» в сохранённой странице оригинального сайта нет отдельного img-файла; использована цветовая карточка как на исходной странице."
 }

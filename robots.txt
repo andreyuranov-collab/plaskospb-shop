@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://plaskospb.ru/sitemap.xml

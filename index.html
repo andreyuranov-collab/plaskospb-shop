@@ -1,193 +1,59 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PLASKO SPB — каталог PLA Standart (частичная загрузка)</title>
-  <meta name="description" content="PLASKO SPB: частично оформленный каталог по исходным материалам PLASKO. В этой версии загружены логотип и фото PLA Standart." />
-  <meta name="theme-color" content="#111827" />
-  <meta property="og:title" content="PLASKO SPB — частичная загрузка каталога" />
-  <meta property="og:description" content="Тестовая версия: оригинальный логотип PLASKO и фотографии PLA Standart из исходного архива." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://plaskospb.ru/" />
-  <link rel="canonical" href="https://plaskospb.ru/" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="preload" href="styles.css" as="style" />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PLASKO SPB — PLA Standard 1.75 мм</title>
+<meta name="description" content="PLASKO SPB: карточки PLA Standard 1.75 мм по данным оригинального сайта PLASKO.">
+<style>
+:root{--bg:#f4f7fb;--ink:#111827;--muted:#64748b;--dark:#0b1020;--accent:#40d9ff;--line:#e5edf7;--container:min(1180px,calc(100vw - 40px));font-family:Inter,Manrope,"Segoe UI",Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:radial-gradient(circle at 18% -12%,rgba(64,217,255,.15),transparent 28rem),radial-gradient(circle at 88% -8%,rgba(124,58,237,.10),transparent 28rem),var(--bg);min-height:100vh}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}button,input,select,textarea{font:inherit}
+.site-header{position:sticky;top:14px;z-index:50;width:var(--container);margin:14px auto 0;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:22px;padding:12px 14px 12px 18px;border-radius:999px;background:rgba(8,13,26,.78);backdrop-filter:blur(18px);box-shadow:0 18px 50px rgba(0,0,0,.22)}.brand{display:inline-flex;align-items:center;gap:10px}.brand img{height:42px;width:auto}.brand-suffix{color:#fff;font-size:25px;font-weight:850;letter-spacing:.16em}.main-nav{display:flex;justify-content:center;gap:8px}.main-nav a,.ghost-link{color:rgba(255,255,255,.78);padding:10px 12px;border-radius:999px;white-space:nowrap}.main-nav a:hover,.ghost-link:hover{color:#fff;background:rgba(255,255,255,.08)}.header-actions{display:flex;align-items:center;gap:10px}.cart-button{border:0;color:#07111f;background:linear-gradient(135deg,var(--accent),#b9f4ff);border-radius:999px;padding:9px 10px 9px 16px;display:inline-flex;align-items:center;gap:10px;cursor:pointer;font-weight:800;box-shadow:0 12px 34px rgba(64,217,255,.28)}.cart-button b{display:inline-grid;place-items:center;min-width:28px;height:28px;border-radius:999px;background:#111827;color:#fff}
+.section{width:var(--container);margin:0 auto;padding:38px 0 80px}.section-head{max-width:920px;margin-bottom:26px}.eyebrow{margin:0 0 8px;color:#0369a1;text-transform:uppercase;letter-spacing:.14em;font-weight:900;font-size:12px}h1{margin:0 0 10px;font-size:clamp(34px,5vw,56px);letter-spacing:-.05em;line-height:.98}.section-head p{color:var(--muted);line-height:1.65;margin:0}
+.toolbar{display:grid;grid-template-columns:1.8fr minmax(180px,.7fr) minmax(180px,.7fr);gap:12px;padding:14px;border-radius:22px;background:#fff;box-shadow:0 10px 30px rgba(15,23,42,.08);margin-bottom:22px}label{display:grid;gap:7px;color:var(--muted);font-size:13px;font-weight:800}input,select,textarea{width:100%;border:1px solid #d8e1ef;border-radius:14px;background:#fff;color:var(--ink);padding:13px 14px;outline:0}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{overflow:hidden;border-radius:28px;background:#fff;box-shadow:0 14px 36px rgba(15,23,42,.08);border:1px solid rgba(15,23,42,.06)}.art{height:330px;display:grid;place-items:center;background:#eef2f7;overflow:hidden;position:relative}.art img{width:100%;height:100%;object-fit:cover}.fallback-spool{width:128px;height:128px;border-radius:50%;background:var(--swatch);box-shadow:0 16px 38px rgba(0,0,0,.24);position:relative}.fallback-spool:before{content:"";position:absolute;inset:40px;border-radius:50%;background:rgba(255,255,255,.9)}.fallback-spool:after{content:"";position:absolute;inset:56px;border-radius:50%;background:rgba(0,0,0,.16)}.stock{position:absolute;top:10px;left:10px;color:#fff;background:#059669;font-size:11px;font-weight:900;padding:4px 10px;border-radius:999px}
+.body{padding:20px}.meta{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:12px}.pill{color:#0369a1;background:#e0f2fe;font-size:12px;line-height:1;border-radius:999px;padding:7px 10px;font-weight:900}.color-line{display:inline-flex;align-items:center;gap:8px;color:var(--muted);font-size:14px;font-weight:800}.dot{width:18px;height:18px;border-radius:50%;border:1px solid rgba(0,0,0,.16);background:var(--swatch)}h2{margin:0 0 10px;font-size:20px;letter-spacing:-.02em}.desc{color:var(--muted);line-height:1.55;min-height:50px}.specs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:16px 0 20px}.specs div{padding:10px;background:#f7fafc;border-radius:14px}.specs dt{color:var(--muted);font-size:12px;font-weight:800}.specs dd{margin:3px 0 0;font-weight:900}.bottom{display:flex;align-items:center;justify-content:space-between;gap:14px}.price{font-size:22px;font-weight:950;letter-spacing:-.03em}.price span{display:block;margin-top:2px;color:#6b7280;font-size:12px;letter-spacing:0;font-weight:800}.btn{border:0;border-radius:999px;padding:12px 16px;background:#111827;color:#fff;font-weight:900;cursor:pointer}
+.split,.footer{width:var(--container);margin:0 auto 28px;display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:54px 0}.box{background:#fff;border-radius:28px;padding:26px;box-shadow:0 10px 30px rgba(15,23,42,.08)}.box p,.box li{color:var(--muted);line-height:1.65}.lead-form{display:grid;gap:12px}.footer{grid-template-columns:1.4fr .8fr .6fr;padding:32px;color:rgba(255,255,255,.72);background:#0b1020;border-radius:32px}.footer .brand-suffix{font-size:22px}.footer h3{color:#fff}.footer a,.footer span{display:block;margin:9px 0}
+.drawer{position:fixed;inset:0;z-index:100;display:none;justify-content:flex-end;background:rgba(2,6,23,.56)}.drawer.open{display:flex}.panel{width:min(520px,100vw);height:100vh;overflow-y:auto;background:#fff;padding:26px;box-shadow:-20px 0 80px rgba(0,0,0,.26)}.panel-head{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:16px}.icon{border:0;width:42px;height:42px;border-radius:50%;background:#f1f5f9;font-size:28px;cursor:pointer}.cart-items{display:grid;gap:12px;padding:20px 0}.cart-row{display:grid;grid-template-columns:58px 1fr auto;gap:12px;align-items:center;padding:12px;border-radius:18px;background:#f8fafc}.cart-swatch{width:58px;height:58px;border-radius:16px;background:var(--swatch);border:1px solid rgba(0,0,0,.12)}.qty{display:flex;align-items:center;gap:7px}.qty button{width:30px;height:30px;border:0;border-radius:50%;background:#e2e8f0;cursor:pointer}.remove{border:0;color:#ef4444;background:transparent;cursor:pointer;font-size:12px;padding:0;margin-top:8px}.summary{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0;margin-bottom:18px}.summary div{display:flex;justify-content:space-between;font-size:18px}.summary strong{font-size:28px}.checkout{display:grid;gap:12px}
+@media(max-width:980px){.main-nav,.ghost-link{display:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.toolbar,.split,.footer{grid-template-columns:1fr}}@media(max-width:680px){:root{--container:min(100vw - 24px,1180px)}.site-header{grid-template-columns:auto auto;gap:10px}.brand img{height:30px}.brand-suffix{font-size:18px;letter-spacing:.12em}.cart-button span{display:none}.grid{grid-template-columns:1fr}.art{height:290px}}
+</style>
 </head>
 <body>
-  <!-- PLASKO SPB shop v00.10 test 260707: partial source-based layout with original PLASKO logo asset and PLA Standart product photos -->
-  <div id="page-top" class="page-anchor" aria-hidden="true"></div>
-  <div class="page-glow" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <a class="brand" href="#page-top" data-home-link aria-label="PLASKO SPB — на главную">
-      <img src="assets/logo-original.png" alt="PLASKO" width="203" height="42" />
-      <span class="brand-suffix">SPB</span>
-    </a>
-    <nav class="main-nav" aria-label="Основная навигация">
-      <a href="#catalog">Каталог</a>
-      <a href="#delivery">Доставка</a>
-      <a href="#wholesale">Опт</a>
-      <a href="#contacts">Контакты</a>
-    </nav>
-    <div class="header-actions">
-      <a class="ghost-link" href="tel:+78000000000" data-phone-link>+7 (800) 000‑00‑00</a>
-      <button class="cart-button" type="button" data-cart-open aria-label="Открыть корзину">
-        <span>Корзина</span>
-        <b data-cart-count>0</b>
-      </button>
-      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" data-menu-toggle>
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <main>
-    <section class="section-pad catalog-section first-section" id="catalog">
-      <div class="section-head section-head-single">
-        <div>
-          <p class="eyebrow">Каталог</p>
-          <h2>PLA Standart — частичная загрузка по исходным материалам</h2>
-          <p>В этой версии подключены оригинальный логотип PLASKO и фотографии PLA Standart из присланного архива. Ассортимент пока оформлен частично: показываем подтверждённые фото, а точные названия/цены/прочие позиции переносим только после полной выгрузки исходного каталога.</p>
-        </div>
-      </div>
-
-      <div class="catalog-toolbar partial-toolbar">
-        <label class="search-box">
-          <span>Поиск</span>
-          <input type="search" placeholder="Белый, PLA Standart, WT, Red…" data-search />
-        </label>
-        <label>
-          <span>Материал</span>
-          <select data-material-filter>
-            <option value="all">Все материалы</option>
-          </select>
-        </label>
-        <label>
-          <span>Сортировка</span>
-          <select data-sort>
-            <option value="default">По умолчанию</option>
-            <option value="nameAsc">По названию</option>
-          </select>
-        </label>
-      </div>
-
-      <div class="source-note">
-        <strong>Важно:</strong> эта версия оформлена частично. Фото взяты из присланного исходного архива, а цены и полная товарная матрица будут добавляться только 1:1 с оригинального сайта PLASKO.
-      </div>
-
-      <div class="product-grid" data-product-grid aria-live="polite"></div>
-      <div class="empty-state" data-empty-state hidden>
-        <h3>Ничего не найдено</h3>
-        <p>Попробуйте поиск по цвету или коду цвета PLASKO.</p>
-        <button class="btn secondary" type="button" data-reset-filters>Сбросить фильтры</button>
-      </div>
-    </section>
-
-    <section class="section-pad split" id="delivery">
-      <div>
-        <p class="eyebrow">Доставка и оплата</p>
-        <h2>Блок пока остаётся тестовым</h2>
-        <p>Здесь пока оставлен общий шаблонный текст. После переноса полной матрицы можно будет синхронизировать условия доставки, оплаты и самовывоза с фактическими условиями представительства.</p>
-      </div>
-      <div class="delivery-card">
-        <ul class="check-list">
-          <li>Самовывоз по Санкт‑Петербургу — уточняется.</li>
-          <li>Доставка по городу — уточняется.</li>
-          <li>Отправка по России — уточняется.</li>
-          <li>Условия для юрлиц и документы — уточняются.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section-pad wholesale" id="wholesale">
-      <div class="wholesale-card">
-        <div>
-          <p class="eyebrow">Оптовые условия</p>
-          <h2>Можно сразу собирать запрос по подтверждённым позициям</h2>
-          <p>Если нужно, можно уже тестировать форму заявки: выбранная карточка подставится в текст запроса менеджеру.</p>
-        </div>
-        <form class="lead-form" data-lead-form>
-          <label>Имя / компания<input name="name" required placeholder="ООО / ИП / имя" /></label>
-          <label>Телефон или email<input name="contact" required placeholder="Как связаться" /></label>
-          <label>Что нужно<textarea name="message" rows="4" placeholder="Материал, цвет, объём, сроки"></textarea></label>
-          <button class="btn primary" type="submit">Сформировать запрос</button>
-          <p class="form-note" data-lead-status>Запрос откроется в почтовом клиенте и продублируется в буфер обмена.</p>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer" id="contacts">
-    <div>
-      <div class="brand footer-brand">
-        <img src="assets/logo-original.png" alt="PLASKO" width="190" height="39" />
-        <span class="brand-suffix">SPB</span>
-      </div>
-      <p>Тестовая частичная версия сайта торгового представительства. В текущем пакете подключены исходный логотип PLASKO и фотографии PLA Standart.</p>
-    </div>
-    <div>
-      <h3>Контакты</h3>
-      <a href="tel:+78000000000" data-phone-link>+7 (800) 000‑00‑00</a>
-      <a href="mailto:info@plaskospb.ru" data-email-link>info@plaskospb.ru</a>
-      <span>Санкт‑Петербург</span>
-    </div>
-    <div>
-      <h3>Разделы</h3>
-      <a href="#catalog">Каталог</a>
-      <a href="#delivery">Доставка</a>
-      <a href="#wholesale">Опт</a>
-    </div>
-  </footer>
-
-  <aside class="cart-drawer" data-cart-drawer aria-hidden="true">
-    <div class="cart-panel" role="dialog" aria-modal="true" aria-label="Корзина заказа">
-      <div class="cart-head">
-        <div>
-          <p class="eyebrow">Ваш заказ</p>
-          <h2>Корзина</h2>
-        </div>
-        <button class="icon-button" type="button" data-cart-close aria-label="Закрыть корзину">×</button>
-      </div>
-      <div class="cart-items" data-cart-items></div>
-      <div class="cart-summary">
-        <div><span>Итого</span><strong data-cart-total>0 ₽</strong></div>
-        <small>В этой частичной версии в корзину можно добавлять только позиции с числовой ценой.</small>
-      </div>
-      <form class="checkout-form" data-checkout-form>
-        <label>Имя<input name="customer" required placeholder="Ваше имя" /></label>
-        <label>Телефон<input name="phone" required placeholder="+7 …" /></label>
-        <label>Email<input name="email" type="email" placeholder="email для счёта" /></label>
-        <label>Доставка<select name="delivery"><option>Самовывоз</option><option>Курьер по СПб</option><option>Транспортная компания</option><option>СДЭК</option></select></label>
-        <label>Комментарий<textarea name="comment" rows="3" placeholder="Цвет, сроки, реквизиты, пожелания"></textarea></label>
-        <button class="btn primary" type="submit">Отправить заявку</button>
-        <button class="btn secondary" type="button" data-copy-order>Скопировать заказ</button>
-        <p class="form-note" data-checkout-status></p>
-      </form>
-    </div>
-  </aside>
-
-  <template id="product-card-template">
-    <article class="product-card">
-      <div class="product-art">
-        <img class="product-photo" src="" alt="" loading="lazy" />
-        <div class="filament-swatch"></div>
-        <div class="spool-mini"><span></span></div>
-      </div>
-      <div class="product-body">
-        <div class="product-meta"><span class="pill"></span><span class="stock"></span></div>
-        <h3></h3>
-        <p class="product-desc"></p>
-        <dl class="specs"></dl>
-        <div class="product-bottom">
-          <strong class="price"></strong>
-          <button class="btn small" type="button">В корзину</button>
-        </div>
-      </div>
-    </article>
-  </template>
-
-  <script src="script.js" defer></script>
-</body>
-</html>
+<!-- PLASKO SPB shop v00.12 test 260709: PLA Standard cards rebuilt from saved original PLASKO page 260709.zip -->
+<header class="site-header"><a class="brand" href="#" id="homeLink"><img src="assets/logo-original.png" alt="PLASKO"><span class="brand-suffix">SPB</span></a><nav class="main-nav"><a href="#catalog">Каталог</a><a href="#delivery">Доставка</a><a href="#wholesale">Опт</a><a href="#contacts">Контакты</a></nav><div class="header-actions"><a class="ghost-link" href="tel:+78000000000">+7 (800) 000‑00‑00</a><button class="cart-button" id="openCart" type="button"><span>Корзина</span><b id="cartCount">0</b></button></div></header>
+<main>
+<section class="section" id="catalog"><div class="section-head"><p class="eyebrow">Каталог</p><h1>PLASKO PLA Standard 1.75 мм</h1><p>Карточки собраны по сохранённой странице оригинального сайта PLASKO: наименование, цвета, цены, оптовые цены, описание, диаметр, вес и точность перенесены 1:1. Изображения сопоставлены с файлами PLA_ST.</p></div><div class="toolbar"><label>Поиск<input id="search" type="search" placeholder="Белый, Чёрный, Золотистый…"></label><label>Материал<select id="material"><option value="all">Все материалы</option></select></label><label>Сортировка<select id="sort"><option value="default">По умолчанию</option><option value="nameAsc">По цвету</option></select></label></div><div class="grid" id="grid"></div></section>
+<section class="split" id="delivery"><div class="box"><p class="eyebrow">Доставка и оплата</p><h2>Доставка и оплата</h2><p>Условия доставки и оплаты оставлены как рабочий блок сайта представительства. При необходимости заменим на фактические условия PLASKO SPB.</p></div><div class="box"><ul><li>Самовывоз по Санкт‑Петербургу — уточняется.</li><li>Доставка по городу — уточняется.</li><li>Отправка по России — уточняется.</li><li>Условия для юрлиц и документы — уточняются.</li></ul></div></section>
+<section class="split" id="wholesale"><div class="box"><p class="eyebrow">Опт</p><h2>Оптовый запрос</h2><p>Можно собрать заявку по выбранным позициям каталога или отправить оптовый запрос менеджеру.</p></div><form class="box lead-form" id="leadForm"><label>Имя / компания<input name="name" required placeholder="ООО / ИП / имя"></label><label>Телефон или email<input name="contact" required placeholder="Как связаться"></label><label>Что нужно<textarea name="message" rows="4" placeholder="Материал, цвет, объём, сроки"></textarea></label><button class="btn" type="submit">Сформировать запрос</button><p id="leadStatus"></p></form></section>
+</main>
+<footer class="footer" id="contacts"><div><div class="brand"><img src="assets/logo-original.png" alt="PLASKO"><span class="brand-suffix">SPB</span></div><p>Сайт торгового представительства PLASKO SPB. В текущей версии оформлен раздел PLA Standard по данным оригинального сайта.</p></div><div><h3>Контакты</h3><a href="tel:+78000000000">+7 (800) 000‑00‑00</a><a href="mailto:info@plaskospb.ru">info@plaskospb.ru</a><span>Санкт‑Петербург</span></div><div><h3>Разделы</h3><a href="#catalog">Каталог</a><a href="#delivery">Доставка</a><a href="#wholesale">Опт</a></div></footer>
+<aside class="drawer" id="drawer"><div class="panel"><div class="panel-head"><div><p class="eyebrow">Ваш заказ</p><h2>Корзина</h2></div><button class="icon" id="closeCart" type="button">×</button></div><div class="cart-items" id="cartItems"></div><div class="summary"><div><span>Итого</span><strong id="cartTotal">0 ₽</strong></div><small>Финальная стоимость, наличие и доставка подтверждаются менеджером.</small></div><form class="checkout" id="checkout"><label>Имя<input name="customer" required placeholder="Ваше имя"></label><label>Телефон<input name="phone" required placeholder="+7 …"></label><label>Email<input name="email" type="email" placeholder="email для счёта"></label><label>Доставка<select name="delivery"><option>Самовывоз</option><option>Курьер по СПб</option><option>Транспортная компания</option><option>СДЭК</option></select></label><label>Комментарий<textarea name="comment" rows="3" placeholder="Цвет, сроки, реквизиты, пожелания"></textarea></label><button class="btn" type="submit">Отправить заявку</button><button class="btn" type="button" id="copyOrder">Скопировать заказ</button><p id="checkoutStatus"></p></form></div></aside>
+<script>
+const products = [{"id": "pla-standard-black", "name": "PLASKO PLA Standard 1.75 мм", "material": "PLA", "colorName": "Чёрный", "image": "PLA_ST_BL.jpg", "price": 1000, "wholesale": 850, "swatch": "#111111", "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.", "diameter": "1.75 мм", "weight": "1 кг", "tolerance": "±0.03 мм", "stock": "В наличии"}, {"id": "pla-standard-orange", "name": "PLASKO PLA Standard 1.75 мм", "material": "PLA", "colorName": "Оранжевый", "image": "PLA_ST_OR.jpg", "price": 1020, "wholesale": 870, "swatch": "#f97316", "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.", "diameter": "1.75 мм", "weight": "1 кг", "tolerance": "±0.03 мм", "stock": "В наличии"}, {"id": "pla-standard-blue", "name": "PLASKO PLA Standard 1.75 мм", "material": "PLA", "colorName": "Синий", "image": "PLA_ST_BLu.jpg", "price": 1020, "wholesale": 870, "swatch": "#2563eb", "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.", "diameter": "1.75 мм", "weight": "1 кг", "tolerance": "±0.03 мм", "stock": "В наличии"}, {"id": "pla-standard-green", "name": "PLASKO PLA Standard 1.75 мм", "material": "PLA", "colorName": "Зелёный", "image": "PLA_ST_gr.jpg", "price": 1020, "wholesale": 870, "swatch": "#16a34a", "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.", "diameter": "1.75 мм", "weight": "1 кг", "tolerance": "±0.03 мм", "stock": "В наличии"}, {"id": "pla-standard-grey", "name": "PLASKO PLA Standard 1.75 мм", "material": "PLA", "colorName": "Серый", "image": "PLA_ST_grey.jpg", "price": 1020, "wholesale": 870, "swatch": "#6b7280", "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.", "diameter": "1.75 мм", "weight": "1 кг", "tolerance": "±0.03 мм", "stock": "В наличии"}, {"id": "pla-standard-natural", "name": "PLASKO PLA Standard 1.75 мм", "material": "PLA", "colorName": "Натуральный", "image": "PLA_ST_nat.jpg", "price": 1000, "wholesale": 850, "swatch": "#e7dfd3", "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.", "diameter": "1.75 мм", "weight": "1 кг", "tolerance": "±0.03 мм", "stock": "В наличии"}, {"id": "pla-standard-red", "name": "PLASKO PLA Standard 1.75 мм", "material": "PLA", "colorName": "Красный", "image": "PLA_ST_RD.jpg", "price": 1020, "wholesale": 870, "swatch": "#dc2626", "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.", "diameter": "1.75 мм", "weight": "1 кг", "tolerance": "±0.03 мм", "stock": "В наличии"}, {"id": "pla-standard-yellow", "name": "PLASKO PLA Standard 1.75 мм", "material": "PLA", "colorName": "Жёлтый", "image": "PLA_ST_YEL.jpg", "price": 1020, "wholesale": 870, "swatch": "#eab308", "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.", "diameter": "1.75 мм", "weight": "1 кг", "tolerance": "±0.03 мм", "stock": "В наличии"}, {"id": "pla-standard-gold", "name": "PLASKO PLA Standard 1.75 мм", "material": "PLA", "colorName": "Золотистый", "image": "", "price": 1020, "wholesale": 870, "swatch": "#df9f16", "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.", "diameter": "1.75 мм", "weight": "1 кг", "tolerance": "±0.03 мм", "stock": "В наличии"}, {"id": "pla-standard-darkgreen", "name": "PLASKO PLA Standard 1.75 мм", "material": "PLA", "colorName": "Тёмно-зеленый", "image": "PLA_ST_BGR.jpg", "price": 1020, "wholesale": 870, "swatch": "#064e3b", "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.", "diameter": "1.75 мм", "weight": "1 кг", "tolerance": "±0.03 мм", "stock": "В наличии"}, {"id": "pla-standard-white", "name": "PLASKO PLA Standard 1.75 мм", "material": "PLA", "colorName": "Белый", "image": "PLA_ST_WT.jpg", "price": 1000, "wholesale": 850, "swatch": "#ffffff", "desc": "Универсальный биоразлагаемый пластик для начинающих и повседневной печати.", "diameter": "1.75 мм", "weight": "1 кг", "tolerance": "±0.03 мм", "stock": "В наличии"}];
+const currency = new Intl.NumberFormat('ru-RU', { style: 'currency', currency: 'RUB', maximumFractionDigits: 0 });
+let state = { search: '', material: 'all', sort: 'default', cart: JSON.parse(localStorage.getItem('plaskospb-cart-v012') || '[]') };
+const qs = s => document.querySelector(s);
+function saveCart() { localStorage.setItem('plaskospb-cart-v012', JSON.stringify(state.cart)); }
+function filtered() { let list = [...products]; if (state.material !== 'all') list = list.filter(p => p.material === state.material); if (state.search) list = list.filter(p => [p.name,p.material,p.colorName,p.desc,p.diameter,p.weight,p.tolerance].join(' ').toLowerCase().includes(state.search)); if (state.sort === 'nameAsc') list.sort((a,b) => a.colorName.localeCompare(b.colorName, 'ru')); return list; }
+function renderProducts() { qs('#grid').innerHTML = filtered().map(p => `<article class="card"><div class="art" style="--swatch:${p.swatch}">${p.image ? `<img src="assets/products/${p.image}" alt="${escapeHtml(p.name)} — ${escapeHtml(p.colorName)}">` : `<div class="fallback-spool"></div>`}<span class="stock">${p.stock}</span></div><div class="body"><div class="meta"><span class="pill">${p.material}</span><span class="color-line"><i class="dot" style="--swatch:${p.swatch}"></i>${p.colorName}</span></div><h2>${p.name}</h2><p class="desc">${p.desc}</p><dl class="specs"><div><dt>Цвет</dt><dd>${p.colorName}</dd></div><div><dt>Диаметр</dt><dd>${p.diameter}</dd></div><div><dt>Вес</dt><dd>${p.weight}</dd></div><div><dt>Точность</dt><dd>${p.tolerance}</dd></div></dl><div class="bottom"><strong class="price">${currency.format(p.price)}<span>от ${currency.format(p.wholesale)} оптом</span></strong><button class="btn" type="button" onclick="addToCart('${p.id}')">В корзину</button></div></div></article>`).join(''); }
+function renderMaterialFilter() { const mats = [...new Set(products.map(p => p.material))]; qs('#material').innerHTML = '<option value="all">Все материалы</option>' + mats.map(m => `<option value="${m}">${m}</option>`).join(''); }
+function addToCart(id) { const line = state.cart.find(x => x.id === id); if (line) line.qty += 1; else state.cart.push({id, qty: 1}); saveCart(); renderCart(); openCart(); }
+function cartLines() { return state.cart.map(x => ({...x, product: products.find(p => p.id === x.id)})).filter(x => x.product); }
+function cartTotal() { return cartLines().reduce((sum, x) => sum + x.product.price * x.qty, 0); }
+function renderCart() { qs('#cartCount').textContent = state.cart.reduce((s,x) => s + x.qty, 0); qs('#cartTotal').textContent = currency.format(cartTotal()); const lines = cartLines(); qs('#cartItems').innerHTML = lines.length ? lines.map(x => `<div class="cart-row"><div class="cart-swatch" style="--swatch:${x.product.swatch}"></div><div><h4>${x.product.name}</h4><p>${x.product.colorName} • ${currency.format(x.product.price)} • от ${currency.format(x.product.wholesale)} оптом</p><button class="remove" onclick="removeLine('${x.id}')" type="button">Удалить</button></div><div class="qty"><button onclick="qty('${x.id}',-1)" type="button">−</button><strong>${x.qty}</strong><button onclick="qty('${x.id}',1)" type="button">+</button></div></div>`).join('') : '<div class="box"><h3>Корзина пустая</h3><p>Добавьте позиции из каталога, чтобы сформировать заявку.</p></div>'; }
+function qty(id, delta) { const line = state.cart.find(x => x.id === id); if (!line) return; line.qty += delta; if (line.qty <= 0) state.cart = state.cart.filter(x => x.id !== id); saveCart(); renderCart(); }
+function removeLine(id) { state.cart = state.cart.filter(x => x.id !== id); saveCart(); renderCart(); }
+function openCart() { qs('#drawer').classList.add('open'); }
+function closeCart() { qs('#drawer').classList.remove('open'); }
+function orderText(data={}) { const lines = cartLines().map((x,i) => `${i+1}. ${x.product.name} — ${x.product.colorName} — ${x.qty} шт. × ${currency.format(x.product.price)} = ${currency.format(x.product.price*x.qty)}`).join('\n'); return ['Заявка с сайта plaskospb.ru','',data.customer?`Имя: ${data.customer}`:'',data.phone?`Телефон: ${data.phone}`:'',data.email?`Email: ${data.email}`:'',data.delivery?`Доставка: ${data.delivery}`:'',data.comment?`Комментарий: ${data.comment}`:'','','Состав заказа:', lines || 'Корзина пустая','',`Итого ориентировочно: ${currency.format(cartTotal())}`].filter(Boolean).join('\n'); }
+async function copyText(t) { if (navigator.clipboard) await navigator.clipboard.writeText(t); }
+function escapeHtml(v) { return String(v).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'","&#039;"); }
+qs('#search').addEventListener('input', e => { state.search = e.target.value.trim().toLowerCase(); renderProducts(); });
+qs('#material').addEventListener('change', e => { state.material = e.target.value; renderProducts(); });
+qs('#sort').addEventListener('change', e => { state.sort = e.target.value; renderProducts(); });
+qs('#openCart').addEventListener('click', openCart); qs('#closeCart').addEventListener('click', closeCart); qs('#drawer').addEventListener('click', e => { if (e.target.id === 'drawer') closeCart(); }); qs('#homeLink').addEventListener('click', e => { e.preventDefault(); window.scrollTo({top:0, behavior:'smooth'}); });
+qs('#copyOrder').addEventListener('click', async () => { await copyText(orderText()); qs('#checkoutStatus').textContent = 'Заказ скопирован в буфер обмена.'; });
+qs('#checkout').addEventListener('submit', async e => { e.preventDefault(); const data = Object.fromEntries(new FormData(e.currentTarget).entries()); const text = orderText(data); await copyText(text); location.href = `mailto:info@plaskospb.ru?subject=${encodeURIComponent('Заявка с сайта plaskospb.ru')}&body=${encodeURIComponent(text)}`; });
+qs('#leadForm').addEventListener('submit', async e => { e.preventDefault(); const data = Object.fromEntries(new FormData(e.currentTarget).entries()); const text = ['Оптовый запрос с сайта plaskospb.ru','',`Имя / компания: ${data.name||''}`,`Контакт: ${data.contact||''}`,`Запрос: ${data.message||''}`].join('\n'); await copyText(text); location.href = `mailto:info@plaskospb.ru?subject=${encodeURIComponent('Оптовый запрос PLASKO SPB')}&body=${encodeURIComponent(text)}`; });
+renderMaterialFilter(); renderProducts(); renderCart();
+</script></body></html>
